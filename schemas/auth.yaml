@@ -3,9 +3,7 @@ type: object
 title: AuthMsg
 properties:
   type:
-    $ref: https://raw.githubusercontent.com/u-packs/HASchemas/main/schemas/shared/type.yaml
-    const: auth
-    default: auth
+    type: integer
 required:
   - type
 additionalProperties: false
